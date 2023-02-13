@@ -1,0 +1,204 @@
+<Style>
+  body{
+    background-color: rgb(239, 9, 9);
+  
+  }
+  h1{
+    border-radius: 8px;
+    background-color: white;
+    margin-right: 100px;
+    margin-left: 80px;
+    padding: 20px;
+    color: blue
+  }
+  p{
+    background-color: white;
+    border-radius: 30px;
+    margin-right: 80px;
+    font-size: 30px;
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(43, 49, 219);
+    cursor: Pointer;
+  }
+  p{
+    margin-left: 50px;
+  }
+  input[type=submit]{
+    margin-left: 200px;
+    font-size: 40px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    cursor: Pointer;
+    transition: opacity 0.15s;
+  }
+  .input[type=submit]:hover {
+    Opacity: 0.7;
+  }
+
+  </style>
+ <body>
+  <h1><center>WELCOME TO KSCOE 2023 ANNUAL QUIZ COMPETITION</center></h1>
+<p>1. Who is the father of computer?<br>
+    <input type="radio" name="1." id="correct1" >Charles Babbage<br>
+  <input type="radio" name="1.">
+  Lady Ada<br>
+  <input type="radio" name="1.">
+  Mr. Omega<br>
+  <input type="radio" name="1.">
+  Blaise Pascal<br></p>
+
+  <p>2. Who is the current provost of KSCOE Gidan Waya?<br>
+    <input type="radio" name="2.">
+    Mr. Linus Pitto<br>
+    <input type="radio" name="2." id="correct2" >Prov. Abubakar Mohammed<br>
+    <input type="radio" name="2.">
+    Dr. Doyin Jonathan<br>
+    <input type="radio" name="2.">
+    None of the above<br></p>
+
+    <p>3. One of these is not an example of a programming language<br>
+      <input type="radio" name="3.">
+      Java<br>
+      <input type="radio" name="3." id="correct3" >
+      Microsoft Word<br>
+      <input type="radio" name="3.">
+     C++<br>
+      <input type="radio" name="3.">
+      Python<br></p>
+
+      <p>4. The latest and most interactive programming language is..........<br>
+        <input type="radio" name="4.">
+        C Programming Language<br>
+        <input type="radio" name="4.">
+        Java Programming Language<br>
+        <input type="radio" name="4." id="correct4" >
+        Python Programming Language<br>
+        <input type="radio" name="4.">
+        html Programming Language<br></p>
+      
+        <p>5. One of the following is an example of a database management system<br>
+          <input type="radio" name="5." id="correct5" >
+          Access<br>
+          <input type="radio" name="5.">
+          Word Processor<br>
+          <input type="radio" name="5." id="correct">
+          CorelDraw<br>
+          <input type="radio" name="5.">
+          Excel Spreadsheet<br></p>
+
+          <p>6. The following are examples of Microcomputers except..<br>
+            <input type="radio" name="6." id="correct6" >
+            Super Computer<br>
+            <input type="radio" name="6.">
+            Laptops<br>
+            <input type="radio" name="6." id="correct">
+            Notebooks<br>
+            <input type="radio" name="6.">
+            Mobile Phones<br></p>
+          
+            <p>7. The Full meaning of html is....<br>
+              <input type="radio" name="7.">
+              Hoover the mail language<br>
+              <input type="radio" name="7." id="correct7" >
+              Hyper-text Markup Language<br>
+              <input type="radio" name="7." id="correct">
+              Hotmail<br>
+              <input type="radio" name="7.">
+              Hiper text markop language<br></p>
+            
+              <p>8. What is the use of a Monitor?<br>
+                <input type="radio" name="8.">
+                Watching films<br>
+                <input type="radio" name="8." id="correct8" >
+                Display the content of the Central Processing Unit<br>
+                <input type="radio" name="8.">
+                Has no use<br>
+                <input type="radio" name="8.">
+                All of the above<br></p>
+              
+                <p>9. The following are output devices except..<br>
+                  <input type="radio" name="9." id="correct9" >
+                  Light Pen<br>
+                  <input type="radio" name="9.">
+                  Speaker<br>
+                  <input type="radio" name="9.">
+                  Monitor<br>
+                  <input type="radio" name="9.">
+                  Printer<br></p>
+
+                  <p>10. One of these is an example of Input device but not an output device<br>
+                    <input type="radio" name="10." id="correct10" >
+                    Keyboard<br>
+                    <input type="radio" name="10.">
+                    Monitor<br>
+                    <input type="radio" name="10.">
+                    Printer<br>
+                    <input type="radio" name="10.">
+                    Graphics Plotter<br></p>
+                  
+                    <p>11. What is the use of < p> in an html?<br>
+                      <input type="radio" name="11.">
+                      To create a table<br>
+                      <input type="radio" name="11." id="correct11" >
+                      To create a paragraph<br>
+                      <input type="radio" name="11.">
+                      To create a hyperlink<br>
+                      <input type="radio" name="11.">
+                      None of the above<br></p>
+
+                    <input type="submit" name="submit" value="submit Quiz" onclick="result()">
+
+                    <script type="text/javascript">
+                      function result(){
+                        // body...
+                        var score=0;
+                        if (document.getElementById('correct1'). checked)
+                        {
+                          score++;                      
+                        }
+                        if (document.getElementById('correct2'). checked)
+                        {
+                          score++;                                            
+                        } if (document.getElementById('correct3'). checked)
+                        {
+                          score++;                      
+                        } if (document.getElementById('correct4'). checked)
+                        {
+                          score++;                      
+                        } if (document.getElementById('correct5'). checked)                        
+                        {
+                          score++;                      
+                        } if (document.getElementById('correct6'). checked)
+                        {
+                          score++;                      
+                        } if (document.getElementById('correct7'). checked)                        
+                        {
+                          score++;                      
+                        }
+                        if (document.getElementById('correct8'). checked)
+                        {
+                          score++;                      
+                        } if (document.getElementById('correct9'). checked)
+                        {
+                          score++;                      
+                        } if (document.getElementById('correct10'). checked)
+                        {
+                          score++;                      
+                        }
+                        document.write("your scored is:"+score);
+                                           
+                      }
+                    </script>
+                  </body>
+              
+                  
+
+
+
+    
+
+
+
